@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Login from './components/Login'
+import Button from './components/common/Button'
 
 function App() {
   
@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <div>
-       <Login />
+        <Button />
       </div>
      
     </>
